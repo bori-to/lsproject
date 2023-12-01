@@ -1,15 +1,17 @@
-#!/usr/bin/python3
 import os
 import sys
 
 def custom_ls():
     files = os.listdir()
 
+    output = ""
     for file in files:
         if "--rev" in sys.argv:
-            print(file[::-1])
-        else :
-            print(file)
+            output += file[::-1] + "\n"
+        else:
+            output += file + "\n"
+
+    return output.strip()
 
 if __name__ == '__main__':
     if "-h" in sys.argv:
