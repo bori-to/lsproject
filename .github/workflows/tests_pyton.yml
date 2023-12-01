@@ -23,5 +23,5 @@ jobs:
       run: |
         python -m pip install --upgrade pip
 
-    - name: Run ls.py
-      run: python ls.py
+    - name: Run src/ls.py
+      run: python src/ls.py
