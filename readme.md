@@ -4,8 +4,9 @@ Bienvenue dans le Projet ls ! Un programme simple en Python pour afficher les fi
 
 ## 🚀 Installation
 
-ls est disponible sur différentes distributions.
 
+ls est disponible sur différentes distributions.
+```bash
 git clone https://github.com/bori-to/lsproject.git
 
 cd lsproject
@@ -13,4 +14,5 @@ cd lsproject
 python setup.py install
 
 python ls.py
+```
 
